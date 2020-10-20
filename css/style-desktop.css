@@ -1,0 +1,25 @@
+@media (min-width: 1024px) /*Desktop*/
+{
+    .big-box
+    {
+        width: 65%;
+        float: left;
+    }
+    .notice-b-b
+    {
+        margin-top: 2px;
+        border-bottom: 2px solid darkgrey;
+        height: 200px;
+    }
+    .buy
+    {
+        background-color: blue;
+        text-decoration: double;
+        color: white;
+        font-weight: bold;
+        float: right;
+        margin: 25px;
+        height: 30px;
+        width: 200px;
+    }   
+}

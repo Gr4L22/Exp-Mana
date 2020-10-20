@@ -1,0 +1,59 @@
+@media (min-width: 768px) /*Tablet*/
+{
+    .container2/*Nab-bar*/
+    {
+    display: block;
+    width: 100%;
+    height: 70px;
+    border-bottom: 3px gold solid;
+    border-top: 3px gold solid;
+    background: url(../img/banner.jpg);
+    background-position: center;
+    background-size: cover;
+    }
+    .container2 ul
+    {
+        margin: 0 20px;
+        padding: 0;
+        margin-top: 40px;
+    }
+    .container2 li
+    {
+        display:inline;
+        padding: 0 20px 0 20px;
+    }
+    .container2 a
+    {
+        text-decoration: none;
+        color: white;  
+        font-size: 25px;
+        font-weight: 700;  
+    }
+    .big-box
+    {
+        width: 65%;
+        float: left;
+    }
+    .side-bar/*side-bar*/
+    {
+        width: 32%;
+        float: right;
+        height: 300px;
+    }
+    .social
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    .social a img
+    {
+        justify-content: center;
+    }
+    .box2
+    {
+        width: 32%;
+        height: 200px;
+        margin-top: 50px;
+        justify-content: right;
+    }
+}
