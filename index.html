@@ -3,10 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" type="text/css" href="./css/style-mobil.css" />
-    <link rel="stylesheet" type="text/css" href="./css/reset.css" />
-    <link rel="stylesheet" type="text/css" href="./css/style-tablet.css" />
-    <link rel="stylesheet" type="text/css" href="./css/style-desktop.css" />
+    <link rel="stylesheet" type="text/css" href="./css/header.css" />
+    <link rel="stylesheet" type="text/css" href="./css/nav_bar.css" />
+    <link rel="stylesheet" type="text/css" href="./css/main.css" />
+    <link rel="stylesheet" type="text/css" href="./css/side_bar.css" />
+    <link rel="stylesheet" type="text/css" href="./css/footer.css" />
     <title>Exp&Mana</title>
   </head>
   <body>
@@ -14,9 +15,11 @@
     <header>
       <div class="container1">
         <img src="./img/logo.png" />
-        <h1>Exp&Mana</h1>
+        <div class="title">
+          <h1>Exp&Mana</h1>
+          <button class="b-ton">Menu</button>
+        </div>
         <p>The gamer zone</p>
-        <button class="b-ton">Menu</button>
       </div>
     </header>
     <!--Nav Bar-->
@@ -30,98 +33,123 @@
       </ul>
     </div>
     <!--Main-->
-    <div id="main" class="main">
-      <div class="in-body">
-        <div class="big-box">
-          <div class="notice-b-b">
-            <!--Notica 1-->
-            <img src="./img/dota2-pp.jpg" />
-            <div class="notice-b-b-text">
-              <a href="">The DotA 2 price pool reach 40.000.000 uss</a>
-              <p>
-                The comunity create the bigest price pool ever. Yet, it will be
-                vacance for the rest of the year. The razon? COVID obiusly.
-              </p>
+    <div class="hole">
+      <div class="main">
+        <div class="in-body">
+          <div class="big-box">
+            <div class="notice-b-b">
+              <!--Notica 1-->
+              <img src="./img/dota2-pp.jpg" />
+              <div class="notice-b-b-text">
+                <a href="">The DotA 2 price pool reach 40.000.000 uss</a>
+                <p>
+                  The comunity create the bigest price pool ever. Yet, it will
+                  be vacance for the rest of the year. The razon? COVID obiusly.
+                </p>
+              </div>
             </div>
-          </div>
-          <div class="notice-b-b">
-            <!--Notica 2-->
-            <img src="./img/lol-movil.jpg" />
-            <div class="notice-b-b-text">
-              <a href="">League of Legends comes to movil in winter</a>
-              <p>
-                For movil gamers and the lovers of this MOBA it wil be able for
-                Android 8.6 and IOs 11 sooner or latter.
-              </p>
+            <div class="notice-b-b">
+              <!--Notica 2-->
+              <img src="./img/lol-movil.jpg" />
+              <div class="notice-b-b-text">
+                <a href="">League of Legends comes to movil in winter</a>
+                <p>
+                  For movil gamers and the lovers of this MOBA it wil be able
+                  for Android 8.6 and IOs 11 sooner or latter.
+                </p>
+              </div>
             </div>
-          </div>
-          <div class="notice-b-b">
-            <!--Notica 3-->
-            <img src="./img/csgo.jpg" />
-            <div class="notice-b-b-text">
-              <a href="">Counter Strike, 20 years and still shooting</a>
-              <p>
-                Like the song... "20 años no son nada"<br />This game is the
-                thirth most played in the word ant it is 20 years old.
-              </p>
+            <div class="notice-b-b">
+              <!--Notica 3-->
+              <img src="./img/csgo.jpg" />
+              <div class="notice-b-b-text">
+                <a href="">Counter Strike, 20 years and still shooting</a>
+                <p>
+                  Like the song... "20 años no son nada"<br />This game is the
+                  thirth most played in the word ant it is 20 years old.
+                </p>
+              </div>
             </div>
-          </div>
-          <div class="notice-b-b">
-            <!--Notica 4-->
-            <img src="./img/fifa21.jpg" />
-            <div class="notice-b-b-text">
-              <a href="">FIFA 21, more of the same</a>
-              <p>
-                Whit nothing but new shirts, this version is more of the same.
-              </p>
-              <button class="buy">Buy It Now</button>
+            <div class="notice-b-b">
+              <!--Notica 4-->
+              <img src="./img/fifa21.jpg" />
+              <div class="notice-b-b-text">
+                <a href="">FIFA 21, more of the same</a>
+                <p>
+                  Whit nothing but new shirts, this version is more of the same.
+                </p>
+                <button class="buy">Buy It Now</button>
+              </div>
             </div>
-          </div>
-          <div class="notice-b-b">
-            <!--Notica 5-->
-            <img src="./img/cod-bug-fix.jpg" />
-            <div class="notice-b-b-text">
-              <a href="">CoD new patch fix the bugs</a>
-              <p>
-                The latest patch fix the brutal bug that afect the multiplayer
-                version of this strong game.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="side">
-          <div class="side-bar">
-            <!--SideBar-->
-            <h3>Folow US</h3>
-            <div class="social">
-              <a href=""><img src="./img/fb-icon.png" /></a>
-              <a href=""><img src="./img/tw-icon.png" /></a>
-              <a href=""><img src="./img/twitch-icon.png" /></a>
-              <a href=""><img src="./img/yt-icon.png" /></a>
-              <a href=""><img src="./img/ig-icon.png" /></a>
-            </div>
-          </div>
-          <div class="box2">
-            <!--Adds-->
-            <div class="adds">
-              <p>
-                Our sponsor!!<br />
-                The one that allways were whit us
-              </p>
-
-              <img src="./img/msi-add.gif" />
-
-              <h3>MSI</h3>
+            <div class="notice-b-b">
+              <!--Notica 5-->
+              <img src="./img/cod-bug-fix.jpg" />
+              <div class="notice-b-b-text">
+                <a href="">CoD new patch fix the bugs</a>
+                <p>
+                  The latest patch fix the brutal bug that afect the multiplayer
+                  version of this strong game.
+                </p>
+              </div>
             </div>
           </div>
         </div>
       </div>
-      <footer>
+      <div class="side">
+        <div class="side-bar">
+          <!--SideBar-->
+          <h3>Folow US</h3>
+          <div class="social">
+            <a href=""><img src="./img/fb-icon.png" /></a>
+            <a href=""><img src="./img/tw-icon.png" /></a>
+            <a href=""><img src="./img/twitch-icon.png" /></a>
+            <a href=""><img src="./img/yt-icon.png" /></a>
+            <a href=""><img src="./img/ig-icon.png" /></a>
+          </div>
+        </div>
+        <div class="box2">
+          <!--Adds-->
+          <div class="adds">
+            <div class="textadd">
+              <p>
+                Our sponsor!!<br />
+                The one that allways were whit us
+              </p>
+              <h2>MSI</h2>
+            </div>
+            <img src="./img/msi-add.gif" />
+          </div>
+        </div>
+        <div class="suscribe">
+            <p>Suscribe to Exp&Mana News!</p>
+            <form>
+                <div>
+                    <label>Name:</label>
+                    <input type="text" name="name">
+                </div>
+                <div>
+                    <label>Email:</label>
+                    <input type="email" name="email">
+                </div>
+                <div>
+                    <label>Age:</label>
+                    <input type="number" name="age">
+                </div>
+                <div>
+                    <label>What's your favourite E-Sport?:</label>
+                    <input type="text" name="">
+                </div>
+                <div>
+                    <input type="submit" name="submit" value="Suscribe!" id="suscribe-buton">
+                </div>
+            </div>
+      </div>
+    </div>
+    <footer>
         <div class="susc">
           <p>Suscribe to the Exp&Mana News!</p>
           <p>Send us an Emal to suscribe@expandmana.com</p>
         </div>
       </footer>
-    </div>
   </body>
 </html>
