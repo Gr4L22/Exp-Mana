@@ -20,7 +20,12 @@
     margin: 15px 2px;
     text-align: center;
 }
+.title a
+{
+    margin: auto;
+}
 .title button{
+    padding: 10px;
     margin-top: auto;
 }
 .container1 p{
@@ -31,7 +36,7 @@
 {
     .title button
     {
-        width: 50%;
+        width: auto;
         height: 40px;
         margin: auto;
     }
@@ -46,7 +51,7 @@
 }
 @media (min-width: 768px)
 {
-    .title button
+    .title a
     {
         display: none;
     }
