@@ -61,7 +61,7 @@ label {
   background-color: cornsilk;
   border-radius: 3px;
 }
-input[type='submit'] {
+input[type="submit"] {
   width: 100%;
   background-color: green;
   color: white;
@@ -72,7 +72,7 @@ input[type='submit'] {
   border-radius: 4px;
   cursor: pointer;
 }
-input[type='submit']:hover {
+input[type="submit"]:hover {
   background-color: red;
 }
 .submit_button {
@@ -86,7 +86,7 @@ input[type='submit']:hover {
   .one-element {
     width: 45%;
   }
-  .form{
-      font-size: 1.5rem;
+  .form {
+    font-size: 1.5rem;
   }
 }
