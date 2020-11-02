@@ -9,6 +9,7 @@
     <link rel="stylesheet" type="text/css" href="./css/side_bar.css" />
     <link rel="stylesheet" type="text/css" href="./css/footer.css" />
     <link rel="stylesheet" type="text/css" href="./css/form.css" />
+
     <title>Suscribe</title>
   </head>
   <body>
@@ -44,83 +45,117 @@
         <div class="two-elements">
           <div class="one-element">
             <label for="full_name">Full Name</label>
-            <input
-              type="text"
-              id="full_name"
-              placeholder="Enter your Name and Last Name"
-            />
+            <div class="error">
+              <input
+                type="text"
+                id="full_name"
+                placeholder="Enter your Name and Last Name"
+              />
+              <p id="error_name">Error</p>
+            </div>
           </div>
           <div class="one-element">
             <label for="id_number">ID Number</label>
-            <input
-              type="text"
-              id="id_number"
-              placeholder="Your ID, just numbers"
-            />
+            <div class="error">
+              <input
+                type="text"
+                id="id_number"
+                placeholder="Your ID, just numbers"
+              />
+              <p id="errorID">Error</p>
+            </div>
           </div>
         </div>
         <div class="two-elements">
           <div class="one-element">
             <label for="age">Your Age</label>
-            <input type="text" id="age" placeholder="How old are you?" />
+            <div class="error">
+              <input type="number" id="age" placeholder="How old are you?" />
+              <p id="error_age">Error</p>
+            </div>
           </div>
           <div class="one-element">
             <label for="mail">Your Mail</label>
-            <input type="text" id="mail" placeholder="Put your mail" />
+            <div class="error">
+              <input type="email" id="mail" placeholder="Put your mail" />
+              <p id="error_mail">Error</p>
+            </div>
           </div>
         </div>
         <div class="two-elements">
           <div class="one-element">
             <label for="password">Create your pass</label>
-            <input
-              type="password"
-              id="password"
-              placeholder="Numbers, uppercase and lowercase"
-            />
+            <div class="error">
+              <input
+                type="password"
+                id="password"
+                placeholder="Numbers, uppercase and lowercase"
+              />
+              <p id="error_pass">Error</p>
+            </div>
           </div>
           <div class="one-element">
             <label for="confirm_pass">Re-confirm your pass</label>
-            <input
-              type="password"
-              id="confirm_pass"
-              placeholder="Re whrite your password"
-            />
+            <div class="error">
+              <input
+                type="password"
+                id="confirm_pass"
+                placeholder="Re whrite your password"
+              />
+              <p id="error_rePass">Error</p>
+            </div>
           </div>
         </div>
         <div class="two-elements">
           <div class="one-element">
             <label for="city">City</label>
-            <input type="text" id="city" placeholder="Where are you from?" />
+            <div class="error">
+              <input type="text" id="city" placeholder="Where are you from?" />
+              <p id="error_city">Error</p>
+            </div>
           </div>
           <div class="one-element">
             <label for="post_number">Postcode</label>
-            <input type="text" id="post_number" placeholder="City postcode" />
+            <div class="error">
+              <input type="text" id="post_number" placeholder="City postcode" />
+              <p id="error_postCode">Error</p>
+            </div>
           </div>
         </div>
         <div class="two-elements">
           <div class="one-element">
-            <label for="phone_code">City Phone Code</label>
-            <input type="text" id="phone_code" placeholder="City phone code" />
+            <label for="Direction">Direction</label>
+            <div class="error">
+              <input type="text" id="direction" placeholder="Direction" />
+              <p id="error_direction">Error</p>
+            </div>
           </div>
           <div class="one-element">
             <label for="phone_number">Phone Number</label>
-            <input
-              type="text"
-              id="phone_number"
-              placeholder="Your phone number"
-            />
+            <div class="error">
+              <input
+                type="text"
+                id="phone_number"
+                placeholder="Your phone number"
+              />
+              <p id="error_phone">Error</p>
+            </div>
           </div>
         </div>
         <div class="submit_button">
-          <input type="submit" value="Submit"/>
+          <input type="submit" id="button" value="Send" />
         </div>
       </form>
     </div>
-    <footer><!--Footer-->
-        <div class="susc">
-          <p>Suscribe to the Exp&Mana News!</p>
-          <p>Send us an Emal to suscribe@expandmana.com</p>
-        </div>
-      </footer>
+    <footer>
+      <!--Footer-->
+      <div class="susc">
+        <p>Be part of the faster growing E-Sport newsletter Exp&Mana News!</p>
+        <p>Send us an Emal to work@expandmana.com</p>
+      </div>
+    </footer>
+
+    <script src="./js/validators.js"></script>
+    <script src="./js/main.js"></script>
   </body>
 </html>
