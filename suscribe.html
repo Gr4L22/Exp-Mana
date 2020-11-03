@@ -38,6 +38,7 @@
       <!--Form title-->
       <h1>Suscribe to our weekly news letter</h1>
       <p>Be part of the e-sports word</p>
+      <div id="bonus"></div>
     </div>
     <div class="form">
       <!--Form body-->
@@ -51,7 +52,7 @@
                 id="full_name"
                 placeholder="Enter your Name and Last Name"
               />
-              <p id="error_name">Error</p>
+              <p id="error_name">Error Invalid Name</p>
             </div>
           </div>
           <div class="one-element">
@@ -62,7 +63,7 @@
                 id="id_number"
                 placeholder="Your ID, just numbers"
               />
-              <p id="errorID">Error</p>
+              <p id="errorID">Error Invalid ID</p>
             </div>
           </div>
         </div>
@@ -71,14 +72,14 @@
             <label for="age">Your Age</label>
             <div class="error">
               <input type="number" id="age" placeholder="How old are you?" />
-              <p id="error_age">Error</p>
+              <p id="error_age">Error Invalid Age</p>
             </div>
           </div>
           <div class="one-element">
             <label for="mail">Your Mail</label>
             <div class="error">
               <input type="email" id="mail" placeholder="Put your mail" />
-              <p id="error_mail">Error</p>
+              <p id="error_mail">Error Invalid eMail</p>
             </div>
           </div>
         </div>
@@ -91,7 +92,7 @@
                 id="password"
                 placeholder="Numbers, uppercase and lowercase"
               />
-              <p id="error_pass">Error</p>
+              <p id="error_pass">Error Invalid Password</p>
             </div>
           </div>
           <div class="one-element">
@@ -102,7 +103,7 @@
                 id="confirm_pass"
                 placeholder="Re whrite your password"
               />
-              <p id="error_rePass">Error</p>
+              <p id="error_rePass">Error Invalid Pass Confirmation</p>
             </div>
           </div>
         </div>
@@ -111,14 +112,14 @@
             <label for="city">City</label>
             <div class="error">
               <input type="text" id="city" placeholder="Where are you from?" />
-              <p id="error_city">Error</p>
+              <p id="error_city">Error Invalid City Name</p>
             </div>
           </div>
           <div class="one-element">
             <label for="post_number">Postcode</label>
             <div class="error">
               <input type="text" id="post_number" placeholder="City postcode" />
-              <p id="error_postCode">Error</p>
+              <p id="error_postCode">Error Invalid Post Code</p>
             </div>
           </div>
         </div>
@@ -127,7 +128,7 @@
             <label for="Direction">Direction</label>
             <div class="error">
               <input type="text" id="direction" placeholder="Direction" />
-              <p id="error_direction">Error</p>
+              <p id="error_direction">Error Invalid Direction</p>
             </div>
           </div>
           <div class="one-element">
@@ -138,12 +139,12 @@
                 id="phone_number"
                 placeholder="Your phone number"
               />
-              <p id="error_phone">Error</p>
+              <p id="error_phone">Error Invalid Phone Number</p>
             </div>
           </div>
         </div>
         <div class="submit_button">
-          <input type="submit" id="button" value="Send" />
+          <input id="button" value="Send" />
         </div>
       </form>
     </div>
@@ -154,7 +155,7 @@
         <p>Send us an Emal to work@expandmana.com</p>
       </div>
     </footer>
-
+    <script src="./js/bonus.js"></script>
     <script src="./js/validators.js"></script>
     <script src="./js/main.js"></script>
   </body>
